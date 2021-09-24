@@ -1,0 +1,102 @@
+
+
+
+
+  /* #main{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+    height: 200px;
+    background-color: pink;
+    border: solid purple;
+    float: left;
+    width: 10%;
+  }
+ main{
+   float: left;
+   width: 80%;
+ } */
+ body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  border: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  word-wrap: break-word;
+  column-gap: 20px;
+  background-color: pink;
+}
+.main_class{
+  width: 80%;
+}
+nav {
+  flex-basis: 70%;
+  flex-direction: row;
+  padding: 30px;
+  /* background-color: blue; */
+  height: 30%;
+  width: 10%;
+}
+
+main {
+  border: black;
+  flex-basis: 70%;
+  /* background-color: blueviolet; */
+  height: 80%;
+  word-wrap: break-word;
+}
+#blog_post{
+  color: red;
+}
+a{
+  text-decoration: none;
+}
+#home{
+  height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+#home:hover{
+  background-color: rgb(226, 30, 177);
+  border-radius: 20px;
+}
+#about_us{
+  height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+#about_us:hover{
+  background-color: rgb(226, 30, 177);
+  border-radius: 20px;
+}
+#contact_us{
+  height: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+#contact_us:hover{
+  background-color: rgb(226, 30, 177);
+  border-radius: 20px;
+}
+#ours_sevices{
+  height: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 1px;
+}
+#ours_sevices:hover{
+  background-color: rgb(226, 30, 177);
+  border-radius: 20px;
+}
